@@ -9,7 +9,7 @@ as of now. I might add support for the web and deploy the app somewhere like on
 Firebase.
 
 # To-Do
-- [ ] Make projects deletable
+- [X] Make projects deletable
 - [ ] Make cloud saving available
 - [ ] Create team projects, where the owner can invite other people and track the total amount of time spent as well as each member's hours of work
 
@@ -17,6 +17,6 @@ Firebase.
 
 Prebuilt binaries, if you don't want to compile the code yourself
 
-- [ARM 32-bit](https://drive.google.com/file/d/171lUAZKNqhWrtkPNJVr1cEd-OABaodQc/view?usp=sharing)
-- [ARM 64-bit](https://drive.google.com/file/d/1ykop-0TXHNHj0_c-31EZttcsYR19tXzR/view?usp=sharing)
-- [x86 64-bit](https://drive.google.com/file/d/1NLgUkGu0_APZk3oGdMu4SIpDUkgB4jGj/view?usp=sharing)
+- [ARM 32-bit](https://drive.google.com/file/d/11mGJLoXOAAN_UVHN8c4-F7Of_t0-Ez4Y/view?usp=sharing)
+- [ARM 64-bit](https://drive.google.com/file/d/1HZ3v5dY5e-PxQ6Awx84S8AeYJFqysjK9/view?usp=sharing)
+- [x86 64-bit](https://drive.google.com/file/d/1dF8klV_AfcznJh7bK44MkrbFQ8TgPx3N/view?usp=sharing)

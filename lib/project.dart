@@ -5,17 +5,17 @@ class Project {
 
   Project(this.name, this.stopwatch, this.alreadyElapsed);
 
-  String getStringRepresentation() {
-    Duration temp = alreadyElapsed + stopwatch.elapsed;
+  String getTotalElapsedTime() {
+    Duration temp = stopwatch.elapsed + alreadyElapsed;
 
     final int hours = temp.inHours;
     final int minutes = temp.inMinutes % 60;
     final int seconds = temp.inSeconds % 60;
 
-    final String minutesString = minutes < 10 ? '0$minutes' : '$minutes';
-    final String secondsString = seconds < 10 ? '0$seconds' : '$seconds';
+    final String minString = minutes < 10 ? '0$minutes' : '$minutes';
+    final String secString = seconds < 10 ? '0$seconds' : '$seconds';
 
-    return '$hours:$minutesString:$secondsString';
+    return '$hours:$minString:$secString';
   }
 
   Project.fromJson(Map<String, dynamic> json)
